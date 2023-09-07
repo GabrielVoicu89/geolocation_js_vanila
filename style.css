@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(43, 174, 235);
+  align-items: center;
+}
+#map {
+  height: 360px;
+  max-width: 360px;
+  border-radius: 25px;
+}
+.whereIam , .del , .savePosition , .whereIwas {
+  border: none;
+  background-color: rgb(177, 220, 255);
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 5px;
+}
+.whereIam:hover, .savePosition:hover, .whereIwas:hover {
+  background-color: aqua;
+}
+
+.del:hover {
+  background-color: red;
+}
